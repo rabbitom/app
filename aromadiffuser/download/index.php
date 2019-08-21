@@ -1,6 +1,5 @@
 <?php
 	$title = 'Canvas Aroma Diffuser';
-	$android_apk = 'aromatherapylife.apk';
 	$android_url = 'https://play.google.com/store/apps/details?id=net.erabbit.aromadiffuser';
 	$ios_url = 'https://itunes.apple.com/app/canvas-aroma-diffuser/id1046445257?l=zh&ls=1&mt=8';
 ?>
@@ -136,7 +135,7 @@
 		echo '
 		for iOS users, please download from App Store:&nbsp;<br/><img src="../images/apple_logo.png"/><a href="'.$ios_url.'" class="blue button">Download<span>from App Store</span></a>
 		<br/>
-		for Android users, please download the apk file and install it:&nbsp;<br/><img src="../images/android_logo.png"/><a href="'.$android_apk.'" class="green button">Download<span>apk file for Android</span></a>
+		for Android users, please download from Google Play:&nbsp;<br/><img src="../images/android_logo.png"/><a href="'.$android_url.'" class="green button">Download<span>from Google Play</span></a>
 		';
 	}
 ?>
